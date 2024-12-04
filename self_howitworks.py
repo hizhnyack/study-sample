@@ -6,7 +6,7 @@ class human():
         self.age = age
         self.gender = gender
     def speak(self):
-        print('I am :', self.age, 'and', self.gender)
+        print('I am a', self.gender, 'and I', self.age,'years old')
 
 
 Jane = human(24, 'woman')
