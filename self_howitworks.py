@@ -12,6 +12,6 @@ class human():
 Jane = human(24, 'woman')
 John = human(22, 'man')
 
-Jane.speak()
-John.speak()
+# Jane.speak()
+# John.speak()
 # print(speak(Jane), 'and', speak(John))
