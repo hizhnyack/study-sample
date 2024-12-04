@@ -1,15 +1,15 @@
-from self_howitworks import human, Jane
+from self_howitworks import human, jane
 
-Ann = human(28,'female')
-Igor = human(56,'male')
+ann = human('Ann', 28,'female')
+igor = human('Igor', 56,'male')
 
-Ann.speak()
+ann.speak()
 # Igor.speak()
-Jane.speak()
+jane.speak()
 
-Ann.change(Jane)
+ann.chage(jane)
 
-Ann.speak()
+ann.speak()
 # Igor.speak()
-Jane.speak()
+jane.speak()
 
