@@ -13,7 +13,7 @@ class human():
         print('I am a', self.name,',',self.__class__.__name__, self.gender, 'and I', self.age,'years old')
 
     def chage(self,person):
-        temp = human(0,'')
+        temp = human('',0,'')
         temp.age = self.age
         self.age = person.age
         person.age = temp.age
